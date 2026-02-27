@@ -9,12 +9,10 @@ from datetime import date, timedelta
 #     current += timedelta(days=1)
 
 
-def month_starts(year):
-    for month in range(1, 13):
-        yield date(year, month, 1)
+# def month_starts(year):
+#     for month in range(1, 13):
+#         yield date(year, month, 1)
 
 
-for d in month_starts(2026):
-    print(d)
-
-month_starts(2007)
+# for d in month_starts(2007):
+#     print(d)
